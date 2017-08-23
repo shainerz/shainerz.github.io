@@ -399,8 +399,23 @@ main {
   .no-print {
     display: none;
   }
-  
+
   .print {
     display: inline-block !important;
+  }
+
+  .app-bar .logo {
+    float: none;
+    width: 100%;
+    line-height: normal;
+    text-align: center;
+    padding-top: 36px;
+  }
+
+  .app-bar .links {
+    float: none;
+    width: 100%;
+    line-height: normal;
+    text-align: center;
   }
 }
