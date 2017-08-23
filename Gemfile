@@ -1,6 +1,5 @@
-source 'https://rubygems.org'
-gem 'jekyll'
-gem 's3_website'
-gem 'jekyll-assets'
-gem 'yui-compressor'
-gem 'psych'
+source "https://rubygems.org"
+
+# https://pages.github.com/versions/
+gem "jekyll", "3.5.2"
+# gem "github-pages", group: :jekyll_plugins
