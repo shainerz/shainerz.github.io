@@ -68,6 +68,21 @@ body {
   line-height: 60px;
 }
 
+.app-bar .subtitle {
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 1.2em;
+  line-height: 60px;
+  margin: 0 16px;
+  padding: 0;
+  color: #eee;
+  float: none;
+  max-width: none;
+  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 60px;
+}
+
 .app-bar .links {
   -webkit-flex: 1;
   flex: 1;
@@ -282,6 +297,15 @@ main {
     font-size: 46px;
   }
 
+  .app-bar .subtitle {
+    display: inline-block;
+    line-height: 180px;
+    position: absolute;
+    left: 18px;
+    margin: 0;
+    padding: 0;
+  }
+
   .app-bar .links {
     float: right;
     margin: 0;
@@ -362,6 +386,10 @@ main {
     line-height: normal;
     text-align: center;
     padding-top: 36px;
+  }
+
+  .app-bar .subtitle {
+    display: none;
   }
 
   .app-bar .links {
