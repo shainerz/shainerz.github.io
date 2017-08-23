@@ -1,31 +1,50 @@
----
-layout: main
----
-<nav class="navdrawer-container promote-layer">
-    <ul>
-        {% for section in site.data.sections %}
-            <li><a href="#{{ section.id }}" class="to-{{ section.id }}">
-                    {{ section.name }}
-            </a></li>
-        {% endfor %}
-    </ul>
-</nav>
-<main>
-    {% for section in site.data.sections %}
-        <div class="section">
-            <h2 id="{{ section.id }}">
-                {{ section.name }}
-            </h2>
-            <hr />
-            {% capture section_layout %}resume/{{section.layout}}.html{% endcapture %}
-            {% for hash in site.data %}
-              {% if hash[0] == section.id %}
-                {% assign blurb = hash[1] %}
-                {% include {{section_layout}} %}
-              {% endif %}
+<!doctype html>
+    <html>
+        <head>
+            {% include layout/default-header.html %}
+            <header class="app-bar promote-layer">
+                <div class="app-bar-container">
+                    <h1 class="logo">{{ site.name }}</h1>
+                    <div class="links print">{{ site.email }} </div>
+                    <div class="links no-print">
+                        <a href="mailto:{{ site.email }}" target="_blank" itemprop="email">email</a> |
+                        <a href="{{ site.github }}" target="_blank">github</a> |
+                        <a href="{{ site.linkedin }}" target="_blank">linkedin</a>
+                    </div>
+                </div>
+            </header>
+        </head>
+    <body>
+        <nav class="navdrawer-container promote-layer no-print">
+            <ul>
+                {% for section in site.data.sections %}
+                    {% if section.layout != "hidden" %}
+                        <li><a href="#{{ section.id }}" class="section_{{ section.id }}">
+                            {{ section.nav-title }}
+                        </a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+        <main>
+            {% for section in site.data.sections %}
+                {% if section.layout != "hidden" %} <div class="section">
+                {% else %} <div class="section" style="display:none">
+                {% endif %}
+                    <h2 id="{{ section.id }}">
+                        {{ section.title }}
+                    </h2>
+                    <hr />
+                    {% capture section_layout %}resume/{{section.layout}}.html{% endcapture %}
+                    {% for hash in site.data %}
+                    {% if hash[0] == section.id %}
+                    {% assign blurb = hash[1] %}
+                    {% include {{section_layout}} %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
             {% endfor %}
-        </div>
-    {% endfor %}
-</main>
-
-
+        </main>
+        {% include layout/default-footer.html %}
+    </body>
+</html>
