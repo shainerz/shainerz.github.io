@@ -1,0 +1,33 @@
+- org:  Tinyco, Inc.
+  role: Software Engineer II
+  when: June 2016 - Present
+  location: C++14, Python, Java
+  bullets:
+    - "Projects: <a href=\"http://www.tinyco.com/tinyco-games/marvel-avengers-academy\" target=\"_blank\">Marvel Avengers Academy</a>, <a href=\"https://itunes.apple.com/us/app/futurama-worlds-of-tomorrow/id1207472130\" target=\"_blank\">Futurama: Worlds of Tomorrow</a>, (unannounced)"
+    - "Full stack development on live and pre-live multiplatform mobile games."
+    - "Advocated for improvements to code reviews and best safety practices."
+
+- org: Minogames, Inc.
+  role: Game Engineer
+  when: June 2015 - May 2016
+  location: Haxe, Obj-C, Java
+  bullets:
+    - "Projects: <a href=\"https://www.facebook.com/MinoMonsters\" target=\"_blank\">Mino Monsters 2: Evolution</a>"
+    - "Front-end engineer on a small team (less than 10) developing a multiplatform game."
+    - "Helped stabilize and push game live within three months of starting."
+
+- org: Three Rings Design/SEGA
+  role: Game Engineer
+  when: January 2014 - May 2015
+  location: C#, Java, Unity
+  bullets:
+    - "Projects: Super Monkey Ball Bounce, (cancelled)"
+    - "Full stack development on live and pre-live multiplatform mobile games."
+
+- org: Bricksimple, LLC.
+  role: Lead Mobile Engineer
+  when: January 2011 - December 2013
+  location: Obj-C, Java, GWT
+  bullets:
+    - "Designed, developed, and maintained multiple customer applications (native iOS/Android/web)."
+    - "Lead small teams on larger projects; sole developer on smaller applications."
