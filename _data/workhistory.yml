@@ -14,14 +14,10 @@
   when: September 2011 - April 2014
   location: C++, Python
   bullets:
-    - Designed and constructed 3U CubeSats for three missions - Bevo-2 in collaboration with NASA-JSC, ARMADILLO, the winning entry into the University Nanosatellite Program - 7 managed by the Air
-Force, and RACE with Jet Propulsion Laboratory
-    - Acted as C&DH subsystem lead in charge of the hardware and software of the central on-board
-computer system
-    -  Implemented the C&DH flight software that manages and commands all satellite
-activities in order to complete the mission objectives of all three current TSL missions
-    - Expanded knowledge of correct systems engineering practices involved in the satellite build process
-from design to flight integration and delivery, including developing mission ConOps
+    - Designed and constructed 3U CubeSats for three missions - Bevo-2 in collaboration with NASA-JSC, ARMADILLO, the winning entry into the University Nanosatellite Program - 7 managed by the Air Force, and RACE with Jet Propulsion Laboratory
+    - Acted as C&DH subsystem lead in charge of the hardware and software of the central on-board computer system
+    - Implemented the C&DH flight software that manages and commands all satellite activities in order to complete the mission objectives of all three current TSL missions
+    - Expanded knowledge of correct systems engineering practices involved in the satellite build process from design to flight integration and delivery, including developing mission ConOps
 
 - org: MDA
   role: Tool Development, Integration and Testing Support (Co-op position)
