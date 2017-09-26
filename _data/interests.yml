@@ -1,2 +1,3 @@
-- Interests:
-  - Ice hockey, softball, hiking
+- org: Interests
+  bullets:
+    - Ice hockey, softball, hiking

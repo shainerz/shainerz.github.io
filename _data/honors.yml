@@ -1,12 +1,15 @@
-- Publications/Presentations:
-  - Peer-reviewed Conference Paper, “A Reusable Command and Data Handling System for University CubeSat Missions”, IEEE Aerospace 2014, Big Sky, MT, March 2014.
-  - Presentation, “Design of a Command & Data Handling System for University Cube Satellite Missions”, SWE 2013, Baltimore, MD, October 2013.
+- org: Publications/Presentations
+  bullets:
+    - Peer-reviewed Conference Paper, “A Reusable Command and Data Handling System for University CubeSat Missions”, IEEE Aerospace 2014, Big Sky, MT, March 2014.
+    - Presentation, “Design of a Command & Data Handling System for University Cube Satellite Missions”, SWE 2013, Baltimore, MD, October 2013.
 
-- Awards:
-  - Recipient, National Sciences & Engineering Research Council of Canada Post Graduate Fellowship 2011-2016
-  - Recipient, University of Texas at Austin Graduate School Recruitment Fellowship, 2011-2012
+- org: Awards
+  bullets:
+    - Recipient, National Sciences & Engineering Research Council of Canada Post Graduate Fellowship 2011-2016
+    - Recipient, University of Texas at Austin Graduate School Recruitment Fellowship, 2011-2012
 
-- Associations:
-  - Senate Rep, Graduate Engineering Council, 2013-2014
-  - Member, The Society of Women Engineers (SWE), 2013-2014
-  - Committee Member, Cockrell School of Engineering 2014 Student Leadership Award Selection Committee
+- org: Associations
+  bullets:
+    - Senate Rep, Graduate Engineering Council, 2013-2014
+    - Member, The Society of Women Engineers (SWE), 2013-2014
+    - Committee Member, Cockrell School of Engineering 2014 Student Leadership Award Selection Committee
