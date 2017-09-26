@@ -1,5 +1,12 @@
-- org:  DigiPen Institute of Technology
-  role: B.S. in Real-Time Interactive Simulation
-  when: 2006 - 2010
+- org:  The University of Texas at Austin
+  role: M.S in Aerospace Engineering
+  when: 2011 - 2013
   bullets:
-    - Minors in Mathematics and Physics
+    - Orbital Mechanics Specialty
+
+  - org:  The University of British Columbia
+  role: B.AS in Engineering Physics
+  when: 2006 - 2011
+  bullets:
+    - Mechatronics Option
+    - Master's thesis: "A Reusable Command and Data Handling System for University CubeSat Missions"

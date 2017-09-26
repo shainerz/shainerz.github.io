@@ -17,3 +17,13 @@
   title: keywords
   nav-title: keywords
   layout: hidden
+
+- id: honors
+  title: honors
+  nav-title: honors
+  layout: block
+
+- id: interests
+  title: interests
+  nav-title: interests
+  layout: block
