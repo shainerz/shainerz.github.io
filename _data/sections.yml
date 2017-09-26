@@ -21,9 +21,9 @@
 - id: honors
   title: honors
   nav-title: honors
-  layout: block
+  layout: list
 
 - id: interests
   title: interests
   nav-title: interests
-  layout: block
+  layout: list
