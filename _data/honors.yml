@@ -1,5 +1,6 @@
 - org: Publications/Presentations
   bullets:
+    - Aerospace Software Panel panelist, "Mission Critical Computing Systems for Space Flight", Grace Hopper Celebration, Orlando FL, October 2017
     - Peer-reviewed Conference Paper, “A Reusable Command and Data Handling System for University CubeSat Missions”, IEEE Aerospace 2014, Big Sky, MT, March 2014.
     - Presentation, “Design of a Command & Data Handling System for University Cube Satellite Missions”, SWE 2013, Baltimore, MD, October 2013.
 
