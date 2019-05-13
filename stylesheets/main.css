@@ -33,7 +33,7 @@ body {
   background-color: #BF94ED;
   overflow: hidden;
   z-index: 1;
-  height: 130px;
+  height: 110px;
 }
 
 .app-bar-container {
@@ -293,8 +293,8 @@ main {
     float: left;
     margin: 0;
     padding: 0;
-    line-height: 130px;
-    font-size: 46px;
+    line-height: 110px;
+    font-size: 36px;
   }
 
   .app-bar .subtitle {
@@ -385,7 +385,7 @@ main {
     width: 100%;
     line-height: normal;
     text-align: center;
-    padding-top: 36px;
+    padding-top: 18px;
   }
 
   .app-bar .subtitle {
@@ -437,7 +437,7 @@ main {
     width: 100%;
     line-height: normal;
     text-align: center;
-    padding-top: 36px;
+    padding-top: 18px;
   }
 
   .app-bar .links {
