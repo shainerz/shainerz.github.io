@@ -1,27 +1,42 @@
 {% for section in blurb %}
-    <div class="block">
-        <div class="main-row">
-            <div class="org">
-                <h3>{{ section.org }}</h3>
-            </div>
-            <div class="when">
-                <h3>{{ section.when }}</h3>
-            </div>
+    {% if section.layout != "hidden" %}
+        <div class="block">
+            <!-- if same employer, exclude org -->
+            {% if forloop.index0 > 0 and section.org == prev_org %}
+                <div class="sub-row">
+                    <div class="role">
+                        <h4>{{ section.role }}</h4>
+                    </div>
+                    <div class="when">
+                        <h4>{{ section.when }}</h4>
+                    </div>
+                </div>
+            {% else %}
+                <div class="main-row">
+                    <div class="org">
+                        <h3>{{ section.org }}</h3>
+                    </div>
+                    <div class="location">
+                        <small>{{ section.location }}</small>
+                    </div>
+                </div>
+                <div class="sub-row">
+                    <div class="role">
+                        <h4>{{ section.role }}</h4>
+                    </div>
+                    <div class="when">
+                        <h4>{{ section.when }}</h4>
+                    </div>
+                </div>
+                {% assign prev_org = section.org %}
+            {% endif %}
+            {% if section.bullets %}
+            <ul>
+                {% for bullet in section.bullets %}
+                <li>{{ bullet | markdownify }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
         </div>
-        <div class="sub-row">
-            <div class="role">
-                <h4>{{ section.role }}</h4>
-            </div>
-            <div class="location">
-                <small>{{ section.location }}</small>
-            </div>
-        </div>
-        {% if section.bullets %}
-        <ul>
-            {% for bullet in section.bullets %}
-            <li>{{ bullet | markdownify }}</li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-    </div>
+    {% endif %}
 {% endfor %}

@@ -1,17 +1,18 @@
+
 - id: objectives
   title: objectives
   nav-title: objectives
-  layout: contact
+  layout: hidden
 
 - id: workhistory
-  title: work history
-  nav-title: work history
+  title: employment
+  nav-title: employment
   layout: block
 
 - id: education
   title: education
   nav-title: education
-  layout: block
+  layout: education_block
 
 - id: keywords
   title: keywords
