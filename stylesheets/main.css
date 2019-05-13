@@ -424,6 +424,7 @@ main {
 }
 
 @media print {
+
   .no-print {
     display: none;
   }
@@ -433,17 +434,21 @@ main {
   }
 
   .app-bar .logo {
+    color: #000000;
     float: none;
     width: 100%;
     line-height: normal;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 12px;
+    font-weight: 300
+    font-size: 1.5em;
   }
 
   .app-bar .links {
+    color: #000000;
     float: none;
     width: 100%;
-    line-height: normal;
+    font-size: .75em;
     text-align: center;
   }
 }
