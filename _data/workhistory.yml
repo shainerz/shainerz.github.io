@@ -1,18 +1,36 @@
-- org:  Spire Global Inc.
-  role: Spacecraft Software Developer
-  when: April 2014 - Present
-  location: Python, C, Groovy
+- org:  &spire Spire Global Inc.
+  role: Constellation Automation Technical Lead
+  when: January 2019 - Present
+  location: San Francisco, CA
   bullets:
-    - Built centralized controller for on-board scheduling and task execution
-    - Refactored ground software architecture for handling contacts between ground station network and satellite constellation
-    - Help maintain build and deploy infrastructure using open-source tools including Ansible, Docker, Terraform, and leveraging AWS services
-    - Instantiated and maintain Spire's CI infrastructure and automated build/test practices with Jenkins
-    - Designed and implemented the majority of Spire's first software test platform for satellite hardware and integration tests used during the manufacturing process
+    - Leading the Constellation Automation and Data Pipeline team on Spire's Infrastructure group while continuing to fulfull software engineering role
+    - Owning the generation, maintainance, and tracking of team roadmap of all existing and potential campaigns to ensure on-time delivery of releases through project prioritization and resource allocation
+    - Acting as the primary point of contact for team's customers for external asks while being responsible for the management, prioritization and delegation of all feature and bug requests
+
+- org: *spire
+  role: Software Engineer - Infrastructure
+  when:  June 2016 - Present
+  location: San Francisco, CA
+  bullets:
+    - Lead or co-lead of a multitude of software projects pertaining to the creation, continued improvement, and monitoring of the constellation pipeline stack, seeing it through from proposal outlining to delivery and deployment
+    - Played major role in designing and implementing the centralized application for on-board scheduling, task execution and fault detection and recovery
+    - Refactored ground software application level architecture that allows for communication between ground station network and satellite constellation
+    - Help maintain build and deploy infrastructure using open-source tools and leveraging AWS services
+
+- org: *spire
+  role: Software Engineer - Satellite Platform
+  when: April 2014 - June 2016
+  location: San Francisco, CA and Glasgow, UK
+  bullets:
+    - Instantiated and presently continue to maintain Spire's CI infrastructure and automated build/test practices with Jenkins
+    - Designed and implemented the majority of Spire's first version of software test platform for satellite hardware and integration tests used during the manufacturing process
+    - One of small group of engineers that collaborated on the creation and adoptation of the tools, practices, and procedures for Spire's manufacturing process
+
 
 - org: The University of Texas at Austin - Texas Spacecraft Laboratory
   role: Graduate Research Assistant
   when: September 2011 - April 2014
-  location: C++, Python
+  location: Austin, TX
   bullets:
     - Designed and constructed 3U CubeSats for three missions - Bevo-2 in collaboration with NASA-JSC, ARMADILLO, the winning entry into the University Nanosatellite Program - 7 managed by the Air Force, and RACE with Jet Propulsion Laboratory
     - Acted as C&DH subsystem lead in charge of the hardware and software of the central on-board computer system
