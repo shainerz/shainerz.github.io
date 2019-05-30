@@ -12,17 +12,17 @@
   when:  June 2016 - Present
   location: San Francisco, CA
   bullets:
-    - Lead or co-lead of a multitude of software projects pertaining to the creation, continued improvement, and monitoring of the constellation pipeline stack, seeing it through from proposal outlining to delivery and deployment
+    - Lead or co-lead of a multitude of software projects (Python) pertaining to the creation, continued improvement, and monitoring of the constellation pipeline stack, seeing it through from proposal outlining to delivery and deployment
     - Played major role in designing and implementing the centralized application for on-board scheduling, task execution and fault detection and recovery
     - Refactored ground software application level architecture that allows for communication between ground station network and satellite constellation
-    - Help maintain build and deploy infrastructure using open-source tools and leveraging AWS services
+    - Help maintain build and deploy infrastructure using open-source tools (Ansible, Terraform, Docker) and leveraging AWS services
 
 - org: *spire
   role: Software Engineer - Satellite Platform
   when: April 2014 - June 2016
   location: San Francisco, CA and Glasgow, UK
   bullets:
-    - Instantiated and presently continue to maintain Spire's CI infrastructure and automated build/test practices with Jenkins
+    - Instantiated and presently continue to maintain Spire's CI infrastructure and automated build/test practices via Jenkins
     - Designed and implemented the majority of Spire's first version of software test platform for satellite hardware and integration tests used during the manufacturing process
     - One of small group of engineers that collaborated on the creation and adoptation of the tools, practices, and procedures for Spire's manufacturing process
 
